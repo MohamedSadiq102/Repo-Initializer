@@ -1,0 +1,109 @@
+@import 'azure-devops-ui/Core/_platformCommon.scss';
+
+.flex-column-margin {
+  margin: 5% 5% 5% 5%;
+}
+
+.submit-div {
+  margin: 10px 0 0 0;
+}
+
+.submit {
+  float: right;
+}
+
+.page {
+  background-color: rgb(245, 245, 244);
+}
+
+.card {
+  background-color: white;
+  color: black;
+}
+
+.textbox {
+  width: 800px;
+  margin: 0 0 15px 0;
+}
+
+.flex-column-div {
+  padding: 0 0 0 15%;
+}
+
+.spinner {
+  margin: 7% 0 10% 40%;
+}
+
+.header {
+  cursor: auto;
+  height: 45px !important;
+}
+
+.success-div {
+  padding: 10% 10% 10% 20%;
+}
+
+.success-span {
+  padding: 0 0 0 10px;
+}
+
+.div-success-redirects {
+  padding: 30px 0 0 27px;
+}
+
+.button-success-redirects {
+  margin: 0 10px 0 0;
+}
+
+.message-card {
+  padding: 2px 0 2px 0;
+}
+
+.link-azuredevops-img-info {
+  margin: -26px 0 10px 100px;
+  width: 40px;
+}
+
+.img-azuredevops-info {
+  width: 20px;
+}
+
+.link-sylabs-user-img-info {
+  margin: -34px 0 -3px 88px;
+  width: 40px;
+}
+
+.img-sylabs-user-info {
+  width: 37px;
+}
+
+.link-sylabs-token-img-info {
+  margin: -35px 0 -3px 98px;
+  width: 40px;
+}
+
+.img-sylabs-token-info {
+  width: 37px;
+}
+
+.link-comment-img-info {
+  margin: -25px 0 3px 137px;
+  cursor: default;
+  width: 22px;
+}
+
+.img-help {
+  width: 15px;
+}
+
+.link-email-img-info {
+  margin: -24px 0 3px 105px;
+  cursor: default;
+  width: 22px;
+}
+
+.link-collection-img-info {
+  margin: -24px 0 3px 128px;
+  cursor: default;
+  width: 22px;
+}

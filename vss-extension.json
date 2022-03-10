@@ -1,0 +1,49 @@
+{
+  "manifestVersion": 1,
+  "id": "create-project-extension",
+  "publisher": "MohamedSadiq",
+  "version": "2.2.0",
+  "name": "Repo Initializer",
+  "description": "Through this extension, users could configure the project through a few steps. The generated project contains a pipeline which saves a massive amount of time",
+  "public": true,
+  "categories": ["Azure Boards"],
+  "content": {
+    "details": {
+      "path": "overview.md"
+    }
+  },
+  "targets": [
+    {
+      "id": "Microsoft.VisualStudio.Services"
+    }
+  ],
+  "contributions": [
+    {
+      "id": "Repo Initializer",
+      "type": "ms.vss-web.hub",
+      "targets": ["ms.vss-web.collection-admin-hub-group"],
+      "properties": {
+        "name": "Repo Initializer",
+        "uri": "dist/create-project/create-project.html"
+      }
+    }
+  ],
+  "icons": {
+    "default": "./img/logo.png"
+  },
+  "files": [
+    {
+      "path": "dist",
+      "addressable": true
+    },
+    {
+      "path": "node_modules/vss-web-extension-sdk/lib",
+      "addressable": true,
+      "packagePath": "lib"
+    },
+    {
+      "path": "src/",
+      "addressable": true
+    }
+  ]
+}
