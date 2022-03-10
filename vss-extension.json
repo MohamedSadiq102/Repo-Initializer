@@ -2,7 +2,7 @@
   "manifestVersion": 1,
   "id": "create-project-extension",
   "publisher": "MohamedSadiq",
-  "version": "2.2.0",
+  "version": "2.3.3",
   "name": "Repo Initializer",
   "description": "Through this extension, users could configure the project through a few steps. The generated project contains a pipeline which saves a massive amount of time",
   "public": true,
